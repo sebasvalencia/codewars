@@ -16,6 +16,10 @@ type the console.log() in the next line(don't forget to put the str in the brack
 
 When you have finished the work, click "Run Tests" to see if your code is working properly.
 
+TEST:
+Test.expect(helloWorld, "function helloWorld is not defined")
+helloWorld();
+
  */
 function helloWorld() {
     var str = "Hello World!";
