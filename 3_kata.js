@@ -1,52 +1,49 @@
 /**
-Training JS #4: Basic data types--Array
+ 
+Training JS #3: Basic data types--String
 
-I've written five function, each function receives a parameter: arr(an array), you should coding something with arr.
+misson 1:
+I've create three function, and defined some global variables, please select some variables that can 
+make up the name of the function, and return them(Please note the uppercase and lowercase letters are different).
 
 
-TEST:
+misson 2:
+After misson 1 finished. you should click "Submit" to see my three questions, and write the answer in 
+function ```answer1, answer2,answer3```
 
-    Test.assertSimilar(getLength([1,2,3]),3);
-    Test.assertSimilar(getFirst([1,2,3]),1);
-    Test.assertSimilar(getLast([1,2,3]),3);
-    Test.assertSimilar(pushElement([1,2,3]).length,4);
-    Test.assertSimilar(popElement([1,2,3]).length,2);
-
+TEST
+Test.assertSimilar(Dad(),"Dad");
+Test.assertSimilar(Bee(),"Bee");
+Test.assertSimilar(banana(),"banana");
 
  */
 
-function getLength(arr){
-    //return length of arr
-    return arr.length;
-  }
-  function getFirst(arr){
-    //return the first element of arr
-    return arr[0];
-  }
-  function getLast(arr){
-    //return the last element of arr
-    return arr[arr.length-1];
-  }
-  function pushElement(arr){
-    var el=1;
-    //push el to arr
-    arr.push(el);
-    return arr;
-  }
-  function popElement(arr){
-    //pop an element from arr
-    arr.pop();
-    return arr;
-  }
+var a1 = "A", a2 = "a", b1 = "B", b2 = "b", c1 = "C", c2 = "c", d1 = "D", d2 = "d", e1 = "E", e2 = "e", n1 = "N", n2 = "n"
+function Dad() {
+    //select some variable to combine "Dad"
+    return d1 + a2 + d2;
+}
+function Bee() {
+    //select some variable to combine "Bee"
+    return b1 + e2 + e2;
+}
+function banana() {
+    //select some variable to combine "banana"
+    return b2 + a2 + n2 + a2 + n2 + a2;
+}
 
-  //Otra solucion
-  const getLength = array => array.length;
-  
-  const getFirst = array => array[0];
-  
-  const getLast = array => array[array.length - 1];
-  
-  const pushElement = array => array.concat(0);
-  
-  const popElement = array => array.splice(0, array.length - 1);
+//answer some questions if you finished works above
+function answer1() {
+    //the answer should be "yes" or "no"
+    return "no";
+}
+function answer2() {
+    //the answer should be "yes" or "no"
+    return "no";
+}
+function answer3() {
+    //the answer should be "yes" or "no"
+    return "yes";
+}
+
 
