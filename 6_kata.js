@@ -58,5 +58,8 @@ TEST:
  */
 
 function trueOrFalse(val) {
+    
+    //return Boolean(val).toString();
     return (val) ? "true" : "false";
+
 }
