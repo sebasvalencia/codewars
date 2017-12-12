@@ -7,5 +7,5 @@
 * 5_kata : Basic data types--Object
 * 6_kata : Basic data types--Boolean and conditional statements if..else
 * 7_kata : if..else and ternary operator
-
+* 8_kata : Conditional statement--switch
 
