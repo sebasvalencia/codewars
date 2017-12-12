@@ -5,4 +5,7 @@
 * 3_kata : Basic data types--String
 * 4_kata : Basic data types--Array
 * 5_kata : Basic data types--Object
-* 
+* 6_kata : Basic data types--Boolean and conditional statements if..else
+
+
+
