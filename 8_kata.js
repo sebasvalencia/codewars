@@ -16,12 +16,37 @@ return a number that how many days in this month(month is always greater than 0,
 |2              |     28      |  (Do not consider the leap year)
 +---------------+-------------+
 
+TEST:
+    Test.assertSimilar(howManydays(1),31);
+    Test.assertSimilar(howManydays(2),28);
+    Test.assertSimilar(howManydays(3),31);
+    Test.assertSimilar(howManydays(4),30);
+    Test.assertSimilar(howManydays(12),31);
+
  */
 
+function howManydays(month) {
+    var days;
+    switch (month) {
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            days = 31;
+            break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            days = 30;
+            break;
+        case 2:
+            days = 28;
+            break;
 
-
-
-
-
-
- 
+    }
+    return days;
+}
