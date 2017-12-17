@@ -8,4 +8,5 @@
 * 6_kata : Basic data types--Boolean and conditional statements if..else
 * 7_kata : if..else and ternary operator
 * 8_kata : Conditional statement--switch
+* 9_kata : loop statement --while and do..while
 
